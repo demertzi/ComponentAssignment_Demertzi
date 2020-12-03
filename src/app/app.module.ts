@@ -3,11 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
+import { HeaderComponent } from './wrapper/header/header.component';
+import { NavComponent } from './wrapper/nav/nav.component';
+import { ContentComponent } from './wrapper/content/content.component';
+import { FooterComponent } from './wrapper/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WrapperComponent
+    WrapperComponent,
+    HeaderComponent,
+    NavComponent,
+    ContentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
